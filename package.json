@@ -1,0 +1,28 @@
+{
+  "name": "statistical-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StvanLeo/statistical-package.git"
+  },
+  "keywords": [],
+  "author": "Esteban Oleas",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/StvanLeo/statistical-package/issues"
+  },
+  "homepage": "https://github.com/StvanLeo/statistical-package#readme",
+  "description": "Statistical functions and graph generation with Node.js",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "chart.js": "^4.4.9",
+    "chartjs-node-canvas": "^5.0.0"
+  }
+}
