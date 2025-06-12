@@ -1,10 +1,10 @@
-name: Publicar paquete en GitHub Packages
+name: Publish package to GitHub Packages
 on:
   push:
     branches:
       - main
 jobs:
-  publicar-paquete:
+  publish-package:
     runs-on: ubuntu-latest
 
     permissions:
